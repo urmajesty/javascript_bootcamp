@@ -20,9 +20,20 @@
 // 	j++;
 // }
 
+// const num = Math.floor(Math.random() * 10);
+// let guess = Math.floor(Math.random() * 10);
+// while (guess !== num) {
+// 	console.log(`Num: ${num} guess: ${guess}`);
+// 	guess = Math.floor(Math.random() * 10);
+// }
+// console.log(`Num: ${num} guess: ${guess}`);
+// console.log('CONGRATULATIONS!!! YOU WON!');
+
 const num = Math.floor(Math.random() * 10);
 let guess = Math.floor(Math.random() * 10);
-while (guess !== num) {
+
+while (true) {
+	if (num === guess) break;
 	console.log(`Num: ${num} guess: ${guess}`);
 	guess = Math.floor(Math.random() * 10);
 }
