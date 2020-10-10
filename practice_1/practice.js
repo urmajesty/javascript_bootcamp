@@ -1,1 +1,4 @@
-alert('I am another script');
+let word = [ 'apple', 'bat', 'car' ];
+for (let char of word) {
+	console.log(char);
+}
