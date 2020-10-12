@@ -29,13 +29,13 @@
 // console.log(`Num: ${num} guess: ${guess}`);
 // console.log('CONGRATULATIONS!!! YOU WON!');
 
-const num = Math.floor(Math.random() * 10);
-let guess = Math.floor(Math.random() * 10);
+// const num = Math.floor(Math.random() * 10);
+// let guess = Math.floor(Math.random() * 10);
 
-while (true) {
-	if (num === guess) break;
-	console.log(`Num: ${num} guess: ${guess}`);
-	guess = Math.floor(Math.random() * 10);
-}
-console.log(`Num: ${num} guess: ${guess}`);
-console.log('CONGRATULATIONS!!! YOU WON!');
+// while (true) {
+// 	if (num === guess) break;
+// 	console.log(`Num: ${num} guess: ${guess}`);
+// 	guess = Math.floor(Math.random() * 10);
+// }
+// console.log(`Num: ${num} guess: ${guess}`);
+// console.log('CONGRATULATIONS!!! YOU WON!');

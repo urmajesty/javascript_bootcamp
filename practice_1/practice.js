@@ -22,9 +22,9 @@
 // 	}
 // }
 
-const words1 = [ 'mail', 'milk', 'bath', 'black' ];
-const words2 = [ 'box', 'shake', 'tub', 'power' ];
+// const words1 = [ 'mail', 'milk', 'bath', 'black' ];
+// const words2 = [ 'box', 'shake', 'tub', 'power' ];
 
-for (let i = 0; i < words1.length; i++) {
-	console.log(`${words1[i]}${words2[i]}`);
-}
+// for (let i = 0; i < words1.length; i++) {
+// 	console.log(`${words1[i]}${words2[i]}`);
+// }
