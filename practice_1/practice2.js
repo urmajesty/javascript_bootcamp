@@ -20,16 +20,16 @@ const movieReviews = {
 // let avg = total / ratings.length;
 // console.log(avg);
 
-for (let prop in movieReviews) {
-	console.log(prop);
-	console.log(movieReviews[prop]);
-}
-let total = 0;
-for (let prop in movieReviews) {
-	total += movieReviews[prop];
-}
-console.log(`movie reviews total is: ${total}`);
+// for (let prop in movieReviews) {
+// 	console.log(prop);
+// 	console.log(movieReviews[prop]);
+// }
+// let total = 0;
+// for (let prop in movieReviews) {
+// 	total += movieReviews[prop];
+// }
+// console.log(`movie reviews total is: ${total}`);
 
-for (let k in [ 88, 99, 77, 66 ]) {
-	console.log(k);
-}
+// for (let k in [ 88, 99, 77, 66 ]) {
+// 	console.log(k);
+// }
