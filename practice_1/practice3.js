@@ -24,10 +24,10 @@
 // 	return color.toLowerCase() === 'grey';
 // }
 
-function containsGrey(arr) {
-	for (let color of arr) {
-		if (color === 'grey') {
-			return true;
-		}
-	}
-}
+// function containsGrey(arr) {
+// 	for (let color of arr) {
+// 		if (color === 'grey') {
+// 			return true;
+// 		}
+// 	}
+// }
