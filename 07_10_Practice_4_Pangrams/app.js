@@ -5,3 +5,23 @@
 
 // isPangram('The five boxing wizards jump quickly') //true
 // isPangram('The five boxing wizards jump quick') //false
+
+// function isPangram(str) {
+
+//     for (let char of 'abcdefghijklmnopqrstuvwxyz') {
+//         if (str.toLowerCase().indexOf(char) === -1) {
+//             return false
+//         }
+//     }
+//     return true
+// }
+
+function isPangram(str) {
+
+    for (let char of 'abcdefghijklmnopqrstuvwxyz') {
+        if (!str.toLowerCase().includes(char)) {
+            return false
+        }
+    }
+    return true
+}
