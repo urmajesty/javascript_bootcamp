@@ -12,10 +12,12 @@
 // isValidPassword('hello1', 'dogLuvr') //false
 
 function isValidPassword(password, username) {
-	if (password.length >= 8 && password !== username && !password.includes(' ')) {
-		return true;
-	}
-	return false;
+    if (password.length >= 8 &&
+        password !== username &&
+        !password.includes(' ')) {
+        return true;
+    }
+    return false;
 }
 // isValidPassword('89Fjj1nms', 'dogLuvr'); //true
 // isValidPassword('dogLuvr123!', 'dogLuvr'); //false
